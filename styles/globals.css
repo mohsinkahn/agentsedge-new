@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+.sidebar-item:hover {
+    background-color: rgba(211, 32, 47, 0.1);
+}
+.sidebar-item.active {
+    background-color: rgba(211, 32, 47, 0.1);
+    border-left: 3px solid #D3202F;
+}
+.sidebar-item.active span svg {
+stroke: red;
+}
+.stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.btn-outline-red {
+    border: 1px solid #D3202F;
+    color: #D3202F;
+}
+.btn-outline-red:hover {
+    background-color: #D3202F;
+    color: white;
+}
+.progress-bar {
+    height: 6px;
+    background-color: #E5E7EB;
+}
+.progress-fill {
+    height: 100%;
+    background-color: #D3202F;
+}
+.dark .progress-bar {
+    background-color: #374151;
+}
+.dark .bg-gray-50 {
+    background-color: #2A2A2A;
+}
+.dark .bg-white {
+    background-color: #2A2A2A;
+}
+.dark .text-gray-800 {
+    color: #F5F5F5;
+}
+.dark .text-gray-600 {
+    color: #D1D5DB;
+}
+.dark .border-gray-200 {
+    border-color: #374151;
+}
+.dark .bg-gray-100 {
+    background-color: #1C1C1C;
+}
+.dark .bg-gray-900 {
+    background-color: #1C1C1C;
+}
+.dark .bg-gray-800 {
+    background-color: #2A2A2A;
+}
+.dark .text-gray-900 {
+    color: #F5F5F5;
+}
+.dark .bg-red-50 {
+    background-color: rgba(211, 32, 47, 0.1);
+}
+.activity-item:hover {
+    background-color: rgba(211, 32, 47, 0.05);
+}
+.dark .activity-item:hover {
+    background-color: rgba(211, 32, 47, 0.1);
+}
+.banner-pattern {
+    background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.03) 0px, rgba(0,0,0,0.03) 2px,transparent 2px, transparent 4px);
+}
+.dark .banner-pattern {
+    background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.03) 0px, rgba(255,255,255,0.03) 2px,transparent 2px, transparent 4px);
+}
+.height-28{
+    height: 28rem;
+}
+canvas{
+    height: 264px!important;
+}
+.bg-accent{
+    color: #d3202f;
+    border: 1px solid #d3202f;
+}
+.bg-accent:hover{
+background-color: #d3202f ;
+color: white;
+}
+.text-accent{
+    color: #d3202f;
+}
+.status-contacted {
+    background-color: rgba(107, 114, 128, 0.1);
+    color: #4B5563;
+}
+.status-pill {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+.status-new {
+    background-color: rgba(211, 32, 47, 0.1);
+    color: #D3202F;
+}
+.status-working {
+    background-color: rgba(156, 163, 175, 0.1);
+    color: #6B7280;
+}
+.status-converted {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #10B981;
+}
+.status-active {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #10B981;
+}
+
+  
+
+   .checkbox-wrapper input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 4px rgba(100, 116, 139, 0.2); 
+    animation: wave 0.7s ease;
+    background-color: red;
+  }
+
+ 
+  @-moz-keyframes wave {
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  @-webkit-keyframes wave {
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  @-o-keyframes wave {
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  @keyframes wave {
+    50% {
+      transform: scale(0.9);
+    }
+  } 
+
+.bg-red-theme{
+    background-color: #d3202f;
+}
+
+.border-red-theme{
+    border: 1px solid #d3202f;
+}
+.bg-accent{
+    background-color: #d3202f;
+   color: white; 
+}
